@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Josefin+Sans:wght@500&display=swap');
+
+body{
+    background-color: #1f1f1f;
+}
+header{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+nav{
+    width: 100%;
+    background-color: lightgray;
+}
+.nav-links{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-family: Roboto, sans-serif;
+}
+.head{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    background-color: bisque;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.name h1{
+    width: 600px;
+    height: 70px;
+    margin: 0;
+    font-family: Alkalami, serif;
+    font-size: 48px;
+    text-decoration: dashed;
+    text-align: center;
+}
+.name h2{
+    width: 600px;
+    margin: 0;
+    font-family: Alkalami, serif;
+    text-align: center;
+}
+.photo{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    padding: 1%;
+}
+.photo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 5px solid black;
+}
+.main{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.line{
+    width: 100%;
+    border: 1px solid black;
+}
+.left{
+    background-color: beige;
+    width: 60%;
+    height: 950px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.left-text{
+    width: 95%;
+}
+.left-text h2{
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.left-text p, li{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left-text a{
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+.left-text li{
+    margin-bottom: 1%;
+}
+.right{
+    background-color: bisque;
+    width: 400px;
+    height: 950px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.right-text{
+    width: 95%;
+}
+.right-text h2{
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.right-text p, li{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right-text a{
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+.right-text li{
+    margin-bottom: 1%;
+}
+.example{
+    background-color: black;
+    color: white;
+}
+.right-ul{
+    padding-bottom: 3%;
+}
+footer{
+    width: 1000px;
+    margin: auto;
+    background-color: lightgray;
+}
+.logo{
+    width: 100px;
+}
+.foot{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+}
+.foot a{
+    text-decoration: none;
+    color: black;
+}
